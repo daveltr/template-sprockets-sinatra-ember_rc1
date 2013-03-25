@@ -1,0 +1,10 @@
+#= require ./vendor/jquery
+#= require ./vendor/handlebars
+#= require ./vendor/ember
+#= require ./vendor/ember-data
+#= require ./environment
+#= require ./store
+#= require ./router
+#= require_tree ./templates
+#= require_tree .
+#= require_self
