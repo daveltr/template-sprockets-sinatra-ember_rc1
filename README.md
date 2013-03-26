@@ -6,7 +6,7 @@ Handlebars RC3
 
 Bootstrap from CDN
 
-qUnit test engine
+mocha test engine
 
 bundle install
 
