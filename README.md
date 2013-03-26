@@ -1,29 +1,13 @@
-Ember-Sinatra is a project skeleton for an Ember application with a Sinatra backend.
+Sinatra
+Sprockets
+Ember RC1
+Ember Data 12
+Handlebars RC3
 
-Just ```bundle install``` to install dependencies and ```shotgun``` to launch the server.
+Bootstrap from CDN
 
-The project structure goes like this :
+qUnit test engine
 
-```
-├── app
-│   ├── assets
-│   │   ├── images
-│   │   ├── javascripts --> the Ember application files
-│   │   │   ├── controllers
-│   │   │   ├── models
-│   │   │   |── views
-│   │   │   ├── vendor
-│   │   │   │   ├── ember.js
-│   │   │   │   ├── handlebars.js
-│   │   │   │   └── jquery.js
-│   │   │   ├── environment.js
-│   │   │   ├── router.js
-│   │   │   ├── app.js
-│   │   └── stylesheets
-│   └── views
-│       └── layout.erb
-├── app.rb -> the Sinatra application
-└── test
-```
+bundle install
 
-Javascripts files of the Ember app are served in one file through Sprockets.
+shotgun to run 

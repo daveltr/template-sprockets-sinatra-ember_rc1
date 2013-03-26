@@ -1,1 +1,1 @@
-#= require_tree ../../../tests/javascripts/
+#= require_tree ../../../test/javascripts/
