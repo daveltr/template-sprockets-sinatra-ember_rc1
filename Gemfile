@@ -7,3 +7,4 @@ gem 'coffee-script'
 # gem 'sinatra-ember', :git => 'https://github.com/gamepoet/sinatra-ember', :require => 'sinatra/ember'
 
 gem 'handlebars_assets'
+gem 'sass'
