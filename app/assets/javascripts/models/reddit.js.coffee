@@ -1,5 +1,5 @@
 App.RedditLink = Em.Object.extend
-  test: true
+  title: ""
 
 App.RedditLink.reopenClass
   findAll: (subreddit) ->
