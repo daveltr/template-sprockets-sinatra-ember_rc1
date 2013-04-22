@@ -1,16 +1,16 @@
-App.RedditLink = Em.Object.extend
-  title: ""
+# App.RedditLink = Em.Object.extend
+#   title: ""
 
-App.RedditLink.reopenClass
-  findAll: (subreddit) ->
-    $.getJSON("http://www.reddit.com/r/" + subreddit + "/.json?jsonp=?").then( (response) ->
-      links = [];
-      response.data.children.forEach (child) ->
-        data = App.RedditLink.create(child.data)
-        links.push(data);
-        window.tester = data
-      return links
-    )
+# App.RedditLink.reopenClass
+#   findAll: (subreddit) ->
+#     $.getJSON("http://www.reddit.com/r/" + subreddit + "/.json?jsonp=?").then( (response) ->
+#       links = [];
+#       response.data.children.forEach (child) ->
+#         data = App.RedditLink.create(child.data)
+#         links.push(data);
+#         window.tester = data
+#       return links
+#     )
 
 
 # // Create our Application

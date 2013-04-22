@@ -3,6 +3,3 @@ window.App = Ember.Application.create
   LOG_TRANSITIONS: true
   ready: ->
     console?.log("app ready")
-
-# $ ->
-#   console?.log('doc ready')
