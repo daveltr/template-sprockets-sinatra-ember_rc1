@@ -2,4 +2,4 @@
 #   enableLogging: true
 # App = window.App
 App.Router.map (match) ->
-  @route 'index'
+  @route 'index', path: '/'
