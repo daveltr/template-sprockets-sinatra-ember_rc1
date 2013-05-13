@@ -11,3 +11,4 @@ mocha test engine
 bundle install
 
 shotgun to run 
+#require File.expand_path('../app', __FILE__)

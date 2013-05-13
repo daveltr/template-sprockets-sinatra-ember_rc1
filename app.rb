@@ -1,6 +1,9 @@
+require 'handlebars_assets'
 require 'json'
-class App < Sinatra::Base
 
+class App < Sinatra::Base
+  set :environment, :development
+  set :root, ::File.dirname(__FILE__)
   set :views, settings.root + '/app/views'
 
   helpers do 
@@ -13,7 +16,6 @@ class App < Sinatra::Base
   end
 
   get '/' do
-   
     erb :main
   end
   get '/test' do 

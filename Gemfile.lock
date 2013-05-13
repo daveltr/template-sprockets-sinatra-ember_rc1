@@ -4,28 +4,29 @@ GEM
     coffee-script (2.2.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.6.1)
+    coffee-script-source (1.6.2)
     daemons (1.1.9)
     eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    handlebars_assets (0.10.0)
+    handlebars_assets (0.12.0)
       execjs (>= 1.2.9)
       sprockets (>= 2.0.3)
       tilt
-    hike (1.2.1)
-    multi_json (1.3.6)
-    rack (1.4.1)
-    rack-protection (1.2.0)
+    hike (1.2.2)
+    json (1.8.0)
+    multi_json (1.7.3)
+    rack (1.5.2)
+    rack-protection (1.5.0)
       rack
-    sass (3.2.7)
+    sass (3.2.9)
     shotgun (0.9)
       rack (>= 1.0)
-    sinatra (1.3.3)
-      rack (~> 1.3, >= 1.3.6)
-      rack-protection (~> 1.2)
-      tilt (~> 1.3, >= 1.3.3)
-    sprockets (2.5.0)
+    sinatra (1.4.2)
+      rack (~> 1.5, >= 1.5.2)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    sprockets (2.6.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
@@ -34,7 +35,7 @@ GEM
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
-    tilt (1.3.3)
+    tilt (1.4.1)
 
 PLATFORMS
   ruby
@@ -42,8 +43,9 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   handlebars_assets
+  json
   sass
   shotgun
   sinatra
-  sprockets (~> 2.5.0)
+  sprockets (~> 2.6.0)
   thin
