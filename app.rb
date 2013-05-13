@@ -13,7 +13,7 @@ class App < Sinatra::Base
   end
 
   get '/' do
-    error 401 unless valid_key?('123')
+   
     erb :main
   end
   get '/test' do 
