@@ -1,4 +1,4 @@
-#= require ./support/sinon
+
 #= require ../../app/assets/javascripts/app/environment
 
 console?.log('spec_helper')
@@ -46,7 +46,7 @@ window.TestUtil ||=
 # beforeEach( (done) ->
 beforeEach( () ->
   # Fake XHR
-  window.server = TestUtil.fakeServer()
+  # window.server = TestUtil.fakeServer()
 
   # Prevent automatic scheduling of runloops. For tests, we
   # want to have complete control of runloops.
@@ -79,5 +79,5 @@ afterEach( ->
   window.Test = {}
 
   # Restore XHR
-  window.server.restore()
+  # window.server.restore()
 )

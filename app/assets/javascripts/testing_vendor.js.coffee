@@ -1,3 +1,3 @@
-#= require ./vendor/mocha
-#= require ./vendor/chai
-#= require ./vendor/sinon
+#= require mocha
+#= require chai/chai
+#= require sinon
