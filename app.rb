@@ -1,6 +1,4 @@
-require 'json' 
-require './data_fixtures'
-
+require 'json'
 class App < Sinatra::Base
 
   set :views, settings.root + '/app/views'
@@ -15,12 +13,12 @@ class App < Sinatra::Base
   end
 
   get '/' do
+    error 401 unless valid_key?('123')
     erb :main
   end
   get '/test' do 
     erb :test
   end
 
-  
 end
 
